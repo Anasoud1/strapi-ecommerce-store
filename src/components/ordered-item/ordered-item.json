@@ -1,7 +1,8 @@
 {
   "collectionName": "components_ordered_item_ordered_items",
   "info": {
-    "displayName": "Ordered-item"
+    "displayName": "Ordered-item",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,7 @@
     "amount": {
       "type": "decimal"
     },
-    "products": {
+    "product": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product"
